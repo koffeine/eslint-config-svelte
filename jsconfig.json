@@ -1,0 +1,22 @@
+{
+	"include": [
+		"src/**/*",
+		"test/**/*"
+	],
+	"compilerOptions": {
+		// Type Checking
+		"strict": true,
+
+		// Modules
+		"module": "nodenext",
+
+		// JavaScript Support
+		"checkJs": true,
+
+		// Language and Environment
+		"target": "esnext",
+
+		// Completeness
+		"skipLibCheck": true
+	}
+}
