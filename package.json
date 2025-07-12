@@ -1,20 +1,21 @@
 {
-	"name": "@koffeine/eslint-config",
-	"version": "44.4.0",
-	"description": "Koffeine's ESLint shareable config",
+	"name": "@koffeine/eslint-config-svelte",
+	"version": "0.0.1",
+	"description": "Koffeine's ESLint shareable config for Svelte",
 	"keywords": [
 		"eslint",
-		"eslintconfig"
+		"eslintconfig",
+		"svelte"
 	],
-	"homepage": "https://github.com/koffeine/eslint-config",
+	"homepage": "https://github.com/koffeine/eslint-config-svelte",
 	"bugs": {
-		"url": "https://github.com/koffeine/eslint-config/issues"
+		"url": "https://github.com/koffeine/eslint-config-svelte/issues"
 	},
 	"license": "MIT",
 	"author": "Kornél Horváth <kornel.horvath@me.com>",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/koffeine/eslint-config.git"
+		"url": "git+https://github.com/koffeine/eslint-config-svelte.git"
 	},
 	"files": [
 		"src",
@@ -32,17 +33,21 @@
 		"prepublishOnly": "npm test"
 	},
 	"dependencies": {
-		"@stylistic/eslint-plugin": "5.1.0"
+		"eslint-plugin-svelte": "3.10.1",
+		"svelte-eslint-parser": "^1.2.0"
 	},
 	"devDependencies": {
+		"@koffeine/eslint-config": "44.4.0",
 		"@types/node": "^22",
 		"@types/punycode": "^2",
 		"@typescript-eslint/parser": "^8",
 		"eslint": "9.31.0",
 		"globals": "^16",
+		"svelte": "^5",
 		"typescript": "^5"
 	},
 	"peerDependencies": {
-		"eslint": "^9.30.0"
+		"eslint": "^9.0.0",
+		"svelte": "^5.0.0"
 	}
 }

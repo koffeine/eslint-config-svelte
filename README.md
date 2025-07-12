@@ -1,14 +1,14 @@
 <h1>
-	eslint-config
-	<a href="https://www.npmjs.com/package/@koffeine/eslint-config"><img alt="npm" src="https://img.shields.io/npm/v/@koffeine/eslint-config"></a>
+	eslint-config-svelte
+	<a href="https://www.npmjs.com/package/@koffeine/eslint-config-svelte"><img alt="npm" src="https://img.shields.io/npm/v/@koffeine/eslint-config-svelte"></a>
 </h1>
 
-Koffeine's ESLint shareable config
+Koffeine's ESLint shareable config for Svelte
 
 ## Installation
 
 ```sh
-npm install --save-dev @koffeine/eslint-config eslint
+npm install --save-dev @koffeine/eslint-config-svelte eslint svelte
 ```
 
 ## Usage
@@ -16,10 +16,10 @@ npm install --save-dev @koffeine/eslint-config eslint
 Add the following to your `eslint.config.js` file:
 
 ```js
-import koffeine from '@koffeine/eslint-config';
+import koffeineSvelte from '@koffeine/eslint-config-svelte';
 
 export default [
-    ...koffeine
+    ...koffeineSvelte
 ];
 ```
 
@@ -27,4 +27,4 @@ export default [
 
 Copyright © Kornél Horváth
 
-Licensed under the [MIT License](https://raw.githubusercontent.com/koffeine/eslint-config/master/LICENSE).
+Licensed under the [MIT License](https://raw.githubusercontent.com/koffeine/eslint-config-svelte/master/LICENSE).

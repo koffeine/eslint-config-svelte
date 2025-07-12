@@ -1,4 +1,4 @@
-import koffeine from './src/index.js';
+import koffeine from '@koffeine/eslint-config';
 import globals from 'globals';
 import typescriptParser from '@typescript-eslint/parser';
 
