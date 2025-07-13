@@ -1,6 +1,6 @@
 {
 	"name": "@koffeine/eslint-config-svelte",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Koffeine's ESLint shareable config for Svelte",
 	"keywords": [
 		"eslint",
