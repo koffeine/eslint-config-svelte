@@ -29,6 +29,7 @@ export default [
 			'svelte/no-store-async': 'error',
 			'svelte/no-top-level-browser-globals': 'off', // SSR
 			'svelte/no-unknown-style-directive-property': 'error',
+			'svelte/prefer-svelte-reactivity': 'error',
 			'svelte/require-store-callbacks-use-set-param': 'error',
 			'svelte/require-store-reactive-access': 'error',
 			'svelte/valid-compile': [ 'error', { ignoreWarnings: false } ],
