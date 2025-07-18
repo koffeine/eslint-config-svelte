@@ -37,7 +37,7 @@
 		"svelte-eslint-parser": "^1.2.0"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "44.4.0",
+		"@koffeine/eslint-config": "44.5.0",
 		"@types/node": "^22",
 		"@types/punycode": "^2",
 		"@typescript-eslint/parser": "^8",
