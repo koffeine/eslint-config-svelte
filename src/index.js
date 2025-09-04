@@ -99,7 +99,7 @@ export default [
 			// SVELTEKIT
 
 			'svelte/no-export-load-in-svelte-module-in-kit-pages': 'off',
-			'svelte/no-navigation-without-base': 'off',
+			'svelte/no-navigation-without-resolve': 'off',
 			'svelte/valid-prop-names-in-kit-pages': 'off',
 
 			// EXPERIMENTAL
