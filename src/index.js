@@ -47,7 +47,7 @@ export default [
 			'svelte/no-add-event-listener': 'error',
 			'svelte/no-at-debug-tags': 'warn',
 			'svelte/no-ignored-unsubscribe': 'error',
-			'svelte/no-immutable-reactive-statements': 'error',
+			'svelte/no-immutable-reactive-statements': 'off', // legacy
 			'svelte/no-inline-styles': 'off',
 			'svelte/no-inspect': 'warn',
 			'svelte/no-reactive-functions': 'off', // legacy
@@ -80,7 +80,7 @@ export default [
 			// '@stylistic/indent': 'off', 'svelte/indent': [ 'error', { indent: 'tab', indentScript: false, switchCase: 1, alignAttributesVertically: false } ], // only in .svelte files
 			'svelte/max-attributes-per-line': 'off',
 			'svelte/mustache-spacing': [ 'error', { textExpressions: 'never', attributesAndProps: 'never', directiveExpressions: 'never', tags: { openingBrace: 'never', closingBrace: 'never' } } ],
-			'svelte/no-extra-reactive-curlies': 'error',
+			'svelte/no-extra-reactive-curlies': 'off', // legacy
 			'svelte/no-restricted-html-elements': 'off',
 			'svelte/no-spaces-around-equal-signs-in-attribute': 'error',
 			'svelte/prefer-class-directive': [ 'error', { prefer: 'empty' } ],
@@ -104,8 +104,8 @@ export default [
 
 			// EXPERIMENTAL
 
-			'svelte/experimental-require-slot-types': 'off',
-			'svelte/experimental-require-strict-events': 'off',
+			'svelte/experimental-require-slot-types': 'off', // legacy
+			'svelte/experimental-require-strict-events': 'off', // legacy
 
 			// SYSTEM
 

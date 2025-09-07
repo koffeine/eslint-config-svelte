@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint-plugin-svelte to 3.12.2
+- Disabled svelte/no-immutable-reactive-statements rule
+- Disabled svelte/no-extra-reactive-curlies rule
+
 
 ## [1.3.0] - 2025-09-04
 
