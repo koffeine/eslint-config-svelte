@@ -31,11 +31,11 @@
 		"eslint-plugin-svelte": "3.13.0"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "47.0.0",
-		"@types/node": "^22",
+		"@koffeine/eslint-config": "^47",
+		"@types/node": "^24",
 		"@types/punycode": "^2",
 		"@typescript-eslint/parser": "^8",
-		"eslint": "9.38.0",
+		"eslint": "^9",
 		"globals": "^16",
 		"svelte": "^5",
 		"typescript": "^5"
@@ -47,7 +47,7 @@
 	"devEngines": {
 		"runtime": {
 			"name": "node",
-			"version": "22"
+			"version": "24"
 		}
 	}
 }
