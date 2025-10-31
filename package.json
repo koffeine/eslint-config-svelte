@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "47.0.0",
-		"@types/node": "^22",
+		"@types/node": "^24",
 		"@types/punycode": "^2",
 		"@typescript-eslint/parser": "^8",
 		"eslint": "9.38.0",
