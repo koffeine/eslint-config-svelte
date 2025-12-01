@@ -22,9 +22,3 @@ export default [
     ...koffeineSvelte
 ];
 ```
-
-## License
-
-Copyright © Kornél Horváth
-
-Licensed under the [MIT License](https://raw.githubusercontent.com/koffeine/eslint-config-svelte/master/LICENSE).

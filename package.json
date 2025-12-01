@@ -8,15 +8,10 @@
 		"svelte"
 	],
 	"homepage": "https://github.com/koffeine/eslint-config-svelte",
-	"bugs": {
-		"url": "https://github.com/koffeine/eslint-config-svelte/issues"
-	},
+	"bugs": "https://github.com/koffeine/eslint-config-svelte/issues",
 	"license": "MIT",
 	"author": "Kornél Horváth <kornel.horvath@me.com>",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/koffeine/eslint-config-svelte.git"
-	},
+	"repository": "koffeine/eslint-config-svelte",
 	"files": [
 		"src",
 		"index.d.ts"
@@ -33,8 +28,7 @@
 		"prepublishOnly": "npm test"
 	},
 	"dependencies": {
-		"eslint-plugin-svelte": "3.13.0",
-		"svelte-eslint-parser": "^1.4.0"
+		"eslint-plugin-svelte": "3.13.0"
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "47.0.0",
@@ -49,5 +43,11 @@
 	"peerDependencies": {
 		"eslint": "^9.0.0",
 		"svelte": "^5.0.0"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "22"
+		}
 	}
 }
