@@ -11,7 +11,10 @@
 	"bugs": "https://github.com/koffeine/eslint-config-svelte/issues",
 	"license": "MIT",
 	"author": "Kornél Horváth <kornel.horvath@me.com>",
-	"repository": "koffeine/eslint-config-svelte",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/koffeine/eslint-config-svelte.git"
+	},
 	"files": [
 		"src",
 		"index.d.ts"
