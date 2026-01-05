@@ -39,7 +39,7 @@
 		"@types/punycode": "^2",
 		"@typescript-eslint/parser": "^8",
 		"eslint": "^9",
-		"globals": "^16",
+		"globals": "^17",
 		"svelte": "^5",
 		"typescript": "^5"
 	},
