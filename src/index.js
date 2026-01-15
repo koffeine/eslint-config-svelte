@@ -59,7 +59,7 @@ export default [
 			'svelte/no-unused-svelte-ignore': 'error',
 			'svelte/no-useless-children-snippet': 'error',
 			'svelte/no-useless-mustaches': [ 'error', { ignoreIncludesComment: false, ignoreStringEscape: false } ],
-			'prefer-const': 'off', 'svelte/prefer-const': [ 'error', { destructuring: 'any', ignoreReadBeforeAssign: false } ],
+			'prefer-const': 'off', 'svelte/prefer-const': [ 'error', { destructuring: 'all', ignoreReadBeforeAssign: false } ],
 			'svelte/prefer-destructured-store-props': 'off',
 			'svelte/prefer-writable-derived': 'error',
 			'svelte/require-each-key': 'error',

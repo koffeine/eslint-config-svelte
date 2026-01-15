@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated svelte/prefer-const rule with `{ destructuring: 'all', ignoreReadBeforeAssign: false }`
+
 
 ## [1.9.0] - 2026-01-08
 
