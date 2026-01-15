@@ -5,7 +5,7 @@ import sveltePlugin from 'eslint-plugin-svelte';
 export default [
 	{
 		name: 'koffeine/svelte/base',
-		files: [ '**/*.svelte.js', '**/*.svelte' ],
+		files: [ '**/*.svelte', '**/*.svelte.js' ],
 		languageOptions: {
 			parser: svelteParser
 		},
@@ -77,7 +77,7 @@ export default [
 			'svelte/html-closing-bracket-spacing': [ 'error', { startTag: 'never', endTag: 'never', selfClosingTag: 'always' } ],
 			'svelte/html-quotes': [ 'error', { prefer: 'double', dynamic: { quoted: false, avoidInvalidUnquotedInHTML: false } } ],
 			'svelte/html-self-closing': [ 'error', { void: 'never', normal: 'never', svg: 'always', math: 'never', component: 'always', svelte: 'always' } ],
-			// '@stylistic/indent': 'off', 'svelte/indent': [ 'error', { indent: 'tab', indentScript: false, switchCase: 1, alignAttributesVertically: false } ], // only in .svelte files
+			// 'svelte/indent': , // only in .svelte files
 			'svelte/max-attributes-per-line': 'off',
 			'svelte/mustache-spacing': [ 'error', { textExpressions: 'never', attributesAndProps: 'never', directiveExpressions: 'never', tags: { openingBrace: 'never', closingBrace: 'never' } } ],
 			'svelte/no-extra-reactive-curlies': 'off', // legacy
@@ -114,22 +114,22 @@ export default [
 		}
 	},
 	{
-		name: 'koffeine/svelte/.svelte.js',
-		files: [ '**/*.svelte.js' ],
-		rules: {
-			// STYLISTIC ISSUES
-
-			'svelte/indent': 'off' // only in .svelte files
-		}
-	},
-	{
 		name: 'koffeine/svelte/.svelte',
 		files: [ '**/*.svelte' ],
 		processor: sveltePlugin.processors.svelte,
 		rules: {
 			// STYLISTIC ISSUES
 
-			'@stylistic/indent': 'off', 'svelte/indent': [ 'error', { indent: 'tab', indentScript: false, switchCase: 1, alignAttributesVertically: false } ], // only in .svelte files
+			'@stylistic/indent': 'off', 'svelte/indent': [ 'error', { indent: 'tab', indentScript: false, switchCase: 1, alignAttributesVertically: false } ],
+		}
+	},
+	{
+		name: 'koffeine/svelte/.svelte.js',
+		files: [ '**/*.svelte.js' ],
+		rules: {
+			// STYLISTIC ISSUES
+
+			'svelte/indent': 'off'
 		}
 	}
 ];
