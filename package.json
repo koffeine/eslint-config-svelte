@@ -34,14 +34,14 @@
 		"eslint-plugin-svelte": "3.14.0"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^47",
-		"@types/node": "^24",
-		"@types/punycode": "^2",
-		"@typescript-eslint/parser": "^8",
-		"eslint": "^9",
-		"globals": "^17",
-		"svelte": "^5",
-		"typescript": "^5"
+		"@koffeine/eslint-config": "^47.8.0",
+		"@types/node": "^24.10.13",
+		"@types/punycode": "^2.1.4",
+		"@typescript-eslint/parser": "^8.55.0",
+		"eslint": "^9.39.2",
+		"globals": "^17.3.0",
+		"svelte": "^5.50.1",
+		"typescript": "^5.9.3"
 	},
 	"peerDependencies": {
 		"eslint": "^9.0.0",
