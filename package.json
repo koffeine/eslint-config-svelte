@@ -34,13 +34,13 @@
 		"eslint-plugin-svelte": "3.15.2"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^48.4.0",
+		"@koffeine/eslint-config": "^48.5.0",
 		"@types/node": "^24.12.0",
 		"@types/punycode": "^2.1.4",
-		"@typescript-eslint/parser": "^8.57.0",
-		"eslint": "^10.0.3",
+		"@typescript-eslint/parser": "^8.57.1",
+		"eslint": "^10.1.0",
 		"globals": "^17.4.0",
-		"svelte": "^5.53.9",
+		"svelte": "^5.54.1",
 		"typescript": "^5.9.3"
 	},
 	"peerDependencies": {
