@@ -79,6 +79,7 @@ export default [
 			'svelte/html-self-closing': [ 'error', { void: 'never', normal: 'never', svg: 'always', math: 'never', component: 'always', svelte: 'always' } ],
 			// 'svelte/indent': , // only in .svelte files
 			'svelte/max-attributes-per-line': 'off',
+			'svelte/max-lines-per-block': 'off',
 			'svelte/mustache-spacing': [ 'error', { textExpressions: 'never', attributesAndProps: 'never', directiveExpressions: 'never', tags: { openingBrace: 'never', closingBrace: 'never' } } ],
 			'svelte/no-extra-reactive-curlies': 'off', // legacy
 			'svelte/no-restricted-html-elements': 'off',
