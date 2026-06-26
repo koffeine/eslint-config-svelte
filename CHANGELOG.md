@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint-plugin-svelte to 3.20.0
+- Enabled svelte/no-at-const-tags rule
+
 
 ## [3.1.0] - 2026-05-30
 

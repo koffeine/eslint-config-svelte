@@ -46,6 +46,7 @@ export default [
 			'svelte/block-lang': 'off',
 			'svelte/button-has-type': [ 'error', { button: true, submit: true, reset: true } ],
 			'svelte/no-add-event-listener': 'error',
+			'svelte/no-at-const-tags': 'error',
 			'svelte/no-at-debug-tags': 'warn',
 			'svelte/no-ignored-unsubscribe': 'error',
 			'svelte/no-immutable-reactive-statements': 'off', // legacy
