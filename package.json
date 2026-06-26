@@ -34,11 +34,11 @@
 		"eslint-plugin-svelte": "3.20.0"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^48.11.0",
+		"@koffeine/eslint-config": "^49.0.0",
 		"@types/node": "^24.13.2",
 		"@types/punycode": "^2.1.4",
 		"@typescript-eslint/parser": "^8.62.0",
-		"eslint": "^10.5.0",
+		"eslint": "^10.6.0",
 		"globals": "^17.7.0",
 		"svelte": "^5.56.4",
 		"typescript": "^6.0.3"
