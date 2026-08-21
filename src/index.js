@@ -89,6 +89,7 @@ export default [
 			'svelte/no-extra-reactive-curlies': 'off', // legacy
 			'svelte/no-restricted-html-elements': 'off',
 			'svelte/no-spaces-around-equal-signs-in-attribute': 'error',
+			'svelte/prefer-attribute-interpolation': 'error',
 			'svelte/prefer-class-directive': [ 'error', { prefer: 'empty' } ],
 			'svelte/prefer-style-directive': 'error',
 			'svelte/require-event-prefix': [ 'error', { checkAsyncFunctions: false } ],
