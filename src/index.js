@@ -5,7 +5,7 @@ import sveltePlugin from 'eslint-plugin-svelte';
 export default [
 	{
 		name: 'koffeine/svelte/base',
-		files: [ '**/*.svelte', '**/*.svelte.js' ],
+		files: [ '**/*.svelte', '**/*.svelte.js', '**/*.svelte.ts' ],
 		languageOptions: {
 			parser: svelteParser
 		},
@@ -121,7 +121,7 @@ export default [
 		}
 	},
 	{
-		name: 'koffeine/svelte/.svelte',
+		name: 'koffeine/svelte/component',
 		files: [ '**/*.svelte' ],
 		processor: sveltePlugin.processors.svelte,
 		rules: {
@@ -131,8 +131,8 @@ export default [
 		}
 	},
 	{
-		name: 'koffeine/svelte/.svelte.js',
-		files: [ '**/*.svelte.js' ],
+		name: 'koffeine/svelte/module',
+		files: [ '**/*.svelte.js', '**/*.svelte.ts' ],
 		rules: {
 			// STYLISTIC ISSUES
 
