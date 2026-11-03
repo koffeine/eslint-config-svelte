@@ -31,7 +31,7 @@
 		"prepublishOnly": "npm test"
 	},
 	"dependencies": {
-		"eslint-plugin-svelte": "3.23.1"
+		"eslint-plugin-svelte": "3.24.0"
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^49.10.0",
