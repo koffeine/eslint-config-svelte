@@ -63,7 +63,7 @@ export default [
 			'svelte/no-unused-svelte-ignore': 'error',
 			'svelte/no-useless-children-snippet': 'error',
 			'svelte/no-useless-mustaches': [ 'error', { ignoreIncludesComment: false, ignoreStringEscape: false } ],
-			'prefer-const': 'off', 'svelte/prefer-const': [ 'error', { destructuring: 'all', ignoreReadBeforeAssign: false } ],
+			'prefer-const': 'off', 'svelte/prefer-const': [ 'error', { destructuring: 'all', ignoreReadBeforeAssign: false } ], // eslint-disable-line @stylistic/list-style
 			'svelte/prefer-derived-over-derived-by': 'error',
 			'svelte/prefer-destructured-store-props': 'off',
 			'svelte/prefer-writable-derived': 'error',
@@ -100,8 +100,8 @@ export default [
 
 			// EXTENSION RULES
 
-			'no-inner-declarations': 'off', 'svelte/no-inner-declarations': [ 'error', 'both', { blockScopedFunctions: 'allow' } ],
-			'@stylistic/no-trailing-spaces': 'off', 'svelte/no-trailing-spaces': [ 'error', { skipBlankLines: false, ignoreComments: false } ],
+			'no-inner-declarations': 'off', 'svelte/no-inner-declarations': [ 'error', 'both', { blockScopedFunctions: 'allow' } ], // eslint-disable-line @stylistic/list-style
+			'@stylistic/no-trailing-spaces': 'off', 'svelte/no-trailing-spaces': [ 'error', { skipBlankLines: false, ignoreComments: false } ], // eslint-disable-line @stylistic/list-style
 
 			// SVELTEKIT
 
@@ -127,7 +127,7 @@ export default [
 		rules: {
 			// STYLISTIC ISSUES
 
-			'@stylistic/indent': 'off', 'svelte/indent': [ 'error', { indent: 'tab', indentScript: false, switchCase: 1, alignAttributesVertically: false } ],
+			'@stylistic/indent': 'off', 'svelte/indent': [ 'error', { indent: 'tab', indentScript: false, switchCase: 1, alignAttributesVertically: false } ], // eslint-disable-line @stylistic/list-style
 		}
 	},
 	{
